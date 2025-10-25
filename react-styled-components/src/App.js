@@ -53,11 +53,10 @@ function App() {
     <Div>
       <Title>Nama : Masdiyono Oget</Title>
       <Title primary>
-        Tugas React JS & Styled Components — Pekerjaan Rumah 10 Modul 11
+        Bootstrap Framework In CSS — Pekerjaan Rumah 11 Modul 12
       </Title>
       <div>
-        <Button>Normal</Button>
-        <Button primary>Primary</Button>
+        <Button onClick={() => window.location.href='/portfolio.html'}>Lihat Tugas Saya</Button>
       </div>
     </Div>
   );
